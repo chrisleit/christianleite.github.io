@@ -1,0 +1,58 @@
+.formação {
+  background: #161515;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 4rem;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: flex-start;
+  padding: 40px 40px;
+}
+
+.formação-esquerdo {
+  font-size: 8rem;
+  word-break: break-all;
+  max-width: 6ch;
+  color: #312d2d;
+  align-items: flex-start;
+}
+
+.descrição {
+  color: #312d2d;
+  align-items: flex-start;
+  font-size: 1.2rem;
+}
+
+.faculdade {
+  color: #000;
+  grid-column: 2;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+}
+
+.faculdade li {
+  list-style-type: none;
+  padding: 10px 30px;
+  background: #312d2d;
+  border-radius: 5px;
+}
+
+.faculdade li:hover {
+  background: rgb(85, 80, 80);
+  transition: 0.3s;
+}
+
+.faculdade::before {
+  content: "";
+  background: linear-gradient(rgb(139, 180, 139), rgb(10, 75, 10));
+  width: 5px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+}
+
+.faculdade p {
+  color: white;
+}

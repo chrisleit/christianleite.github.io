@@ -1,0 +1,89 @@
+.experiência {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 4rem;
+  margin: 0 auto;
+  gap: 3rem;
+  align-items: flex-start;
+  padding: 40px 40px;
+}
+
+.experiência p {
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+.exp {
+  font-size: 9rem;
+  max-width: 4ch;
+  word-break: break-all;
+  color: rgba(0, 0, 0, 0.205);
+}
+
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #e7e7e7;
+  border-radius: 5px;
+  grid-column: 2;
+  padding: 10px 10px;
+  position: relative;
+}
+.titulo {
+  grid-column: 1;
+}
+.projetos span {
+  display: block;
+  grid-column: 1;
+}
+
+.desenvolvedor li {
+  list-style: none;
+}
+.atributos {
+  padding: 10px 20px;
+  display: grid;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 40px;
+}
+.atributos a {
+  background: white;
+  text-decoration: none;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.desenvolvedor {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.bikcrefd {
+  padding: 10px 20px;
+  display: grid;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  gap: 40px;
+}
+.projetos::before {
+  display: block;
+  content: "";
+  background: linear-gradient(rgb(139, 180, 139), rgb(10, 75, 10));
+  width: 5px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+}
+
+.ano {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  left: -70px;
+}
